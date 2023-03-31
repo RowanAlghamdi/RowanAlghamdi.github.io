@@ -60,8 +60,8 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">Statistical Report of COVID-19, Pneumonia, and Influenza Death Counts in the United States</div>
-        <div class="body-text">This project aims to assess the data on COVID-19, Pneumonia, and Influenza death counts in the United States across all ages and sexes to evaluate the spread of these provisional diseases and to investigate which illness has the greatest impact on total deaths.</div>
+        <div class="main-title">Multi-class Classification of Cheese Firmness Model</div>
+        <div class="body-text">This project aims to build a multi-class classification model for a cheese dataset obtained from the Government of Canada's Open Government Portal to accurately evaluate and recognize the degree of firmness of different cheese types.</div>
         <image class="project-header-image" src="../assets/images/Diseases.jpg">
       </div>
 
@@ -74,8 +74,8 @@
       <div id="project-details">
         <div class="subheader-text">Details</div>
         <div class="project-details-content">
-          <div class="body-text">The data used in this project comes from the National Centre for Health Statistics (NCHS) in the United States of America between 2 May 2020 and 13 January 2021. It reports the number of deaths involving COVID-19, Pneumonia, and Influenza across age groups, sex and US states. We investigated the speed of COVID-19 death counts compared to Pneumonia and Influenza death counts across the states and between females and males.  Also, the disease with the highest impact on total death counts in the United States. </div>
-          <div class="body-text">The first discovery is that there is a greater discrepancy in death counts for COVID-19 between males and females (across all ages) than for Pneumonia and Influenza. Moreover, there was an approximately equal range for males with COVID-19 and Pneumonia. There was a greater range for males with Pneumonia and the greatest range was for females with COVID-19. The second discovery is that COVID-19 showed the greatest impact on total deaths within the US, closely followed by Pneumonia, with Influenza showing a far less impact on total death counts. These results have implications for the impact that an effective and wide-spread vaccine can have on saving lives.</div>
+          <div class="body-text">Cheese comes in a variety of textures and firmnesses. According to their degree of firmness, cheeses can be hard, firm, veined/blue, semi-soft, soft, or fresh. A  multi-class classification model was built to determine cheese firmness based on cheese nutrition and the process used to make the cheese. The EDA shows the impact characteristics like moisture content, fat level and milk treatment on different firmness levels. Consumers, chefs, and cheese-making businesses, among other industries, can benefit from a cheese classification model.</div>
+          <div class="body-text">We used the Random forest model for this classification problem. Using RandomizedSearchCV, we found the best parameters which scored the highest on the training and validation sets using the metric f1 weighted. When we compare our results to the baseline model, we got a nearly 30% improvement. The scores were as follows: 0.9546 on the training set, 0.6188 on the validation set, and 0.6373 on the test set. Since the model was trained on a limited set of data, the overall results were as expected. The model could be improved by increasing the data size to allow for enough observations for each class.</div>
         </div>
       </div>
 
@@ -102,12 +102,16 @@
                   - IMAGE_CAPTION: to the caption of the image
             -->
             <div class="gallery-image-container ">
-              <img src="../assets/images/image6.png" class="gallery-image">
+              <img src="../assets/images/plot1.png" class="gallery-image">
               <span class="image-caption">Death counts due to COVID-19, Pneumonia, and Influenza for all ages by gender</span>
             </div>
             <div class="gallery-image-container">
-              <img src="../assets/images/image7.png" class="gallery-image">
+              <img src="../assets/images/plot2.png" class="gallery-image">
               <span class="image-caption">Total death counts vs. Death counts due to COVID-19, Pneumonia, and Influenza </span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/plot3.png" class="gallery-image">
+              <span class="image-caption">Total death counts vs. Death counts due to COVID-19, Pneumonia, and Influenza </span>          
             </div>
         </div>
       </div>
